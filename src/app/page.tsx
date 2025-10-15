@@ -6,6 +6,7 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import { Award, Shield } from 'lucide-react';
 
 const assetMap = [
   { "id": "hero-image", "url": "https://images.pexels.com/photos/2827798/pexels-photo-2827798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Close-up of a woman lighting a cigarette outdoors with a lighter, smoke visible." },
@@ -41,8 +42,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6">
           <SplitAbout
             bulletPoints={[
-              { title: "Heritage", description: "Zyn Snus has a long-standing tradition of quality.", icon: "Award" },
-              { title: "Quality", description: "Our products meet the highest industry standards.", icon: "Shield" },
+              { title: "Heritage", description: "Zyn Snus has a long-standing tradition of quality.", icon: Award },
+              { title: "Quality", description: "Our products meet the highest industry standards.", icon: Shield },
             ]}
             imageSrc="https://images.pexels.com/photos/1181715/pexels-photo-1181715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           />
